@@ -12,6 +12,8 @@ setup(
                 "kernels/sobel.cu",
                 "kernels/dilation.cu",
                 "kernels/erosion.cu",
+                "kernels/histogram_cub.cu",
+                "kernels/histogram_thrust.cu",
                 "kernels/module.cpp",
             ],
             extra_compile_args={"cxx": ["-O2"]},
